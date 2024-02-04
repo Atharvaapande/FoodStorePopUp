@@ -14,13 +14,16 @@ let title = foodItem.forEach((item)=>{
 
                 let heading = document.createElement('h1')
                 heading.innerText = 'Order is Successful'
+                heading.classList.add('payHeading')
                 pay.appendChild(heading)
 
                 let itemName = document.createElement('h2')
                 itemName.innerText = 'for '+item.dataset.title 
+                itemName.classList.add('itemName')
                 pay.appendChild(itemName)
 
                 let total = document.createElement('h3')
+                total.classList.add('total')
                 let amount = parseInt(item.dataset.price)
                 if(amount <=100){
                     total.innerText = 'Additional Delivery Charges = '+ (40) + '\n Total Payble Amount = ' +(amount+40)   
