@@ -13,7 +13,7 @@ let title = foodItem.forEach((item)=>{
                 topUp.appendChild(pay)
 
                 let heading = document.createElement('h1')
-                heading.innerText = 'Order is Successful'
+                heading.innerText = 'Order Summary'
                 heading.classList.add('payHeading')
                 pay.appendChild(heading)
 
