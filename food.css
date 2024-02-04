@@ -89,9 +89,10 @@
         font-size: 32px;
     }
     .foodItem{
-        width: 150px;
+        width: 140px;
         height: 270px;
         margin: 0 4px 4px 4px;
+        padding: 6px;
     }
     .desc{
         font-size: 12px;
