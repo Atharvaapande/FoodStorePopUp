@@ -2,6 +2,7 @@
 
 This is a simple web application that allows users to browse through a selection of food items and view their details. Users can click on each food item to view its name, price, and description. Additionally, users can order items and view the order summary, including additional delivery charges if applicable.
 
+![foodStoreVideo (1)](https://github.com/Atharvaapande/FoodStorePopUp/assets/128508298/46896cdd-ed9b-4ad2-a528-4fdae90a0218)
 ## Technologies Used
 
 - HTML
@@ -35,10 +36,6 @@ To get started with the Food App, follow these steps:
 
 1. Open the Food App in your web browser.
 2. Click on any food item to view its details and order summary.
-
-## Screenshots
-
-![Food App Screenshot](screenshot.png)
 
 ## License
 
